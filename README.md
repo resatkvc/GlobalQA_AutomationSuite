@@ -143,14 +143,6 @@ Proje, merkezi test veri yönetimi için JSON formatını kullanır. Test verile
 - **Kolay Bakım**: Test verilerini kod değiştirmeden güncelleme
 - **Veri Ayrımı**: Test mantığı ve test verilerinin ayrılması
 
-### URL Ayarları
-Tüm URL'ler `Config.java` dosyasında merkezi olarak yönetilir:
-```java
-public static final String BASE_URL = "https://useinsider.com/";
-public static final String CAREERS_URL = "https://useinsider.com/careers/";
-public static final String QA_CAREERS_URL = "https://useinsider.com/careers/quality-assurance/";
-```
-
 ## 📝 Loglama
 
 Proje Log4j2 kullanarak kapsamlı loglama sağlar:
