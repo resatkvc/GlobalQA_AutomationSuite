@@ -1,0 +1,179 @@
+2025-09-07 14:59:48 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testCareersPageSections
+2025-09-07 15:06:06 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testCareersPageSections
+2025-09-07 15:21:14 [main] ERROR automation.com.pages.BasePage - Element not visible: By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')] - Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54938/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a6055170cd068b93c4a138e78aaa256
+2025-09-07 15:21:15 [main] ERROR automation.com.pages.BasePage - Error scrolling to element: By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')] - Element not visible: By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')]
+2025-09-07 15:21:35 [main] ERROR automation.com.pages.BasePage - Element not clickable: By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')] - Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54938}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54938/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a6055170cd068b93c4a138e78aaa256
+2025-09-07 15:21:35 [main] ERROR automation.com.pages.BasePage - Error clicking element: By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')] - Element not clickable: By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')]
+2025-09-07 15:21:36 [main] ERROR automation.com.pages.BasePage - Error clicking 'See all QA jobs' button: Failed to click element: By.xpath: //a[contains(text(), 'See all QA jobs') or contains(text(), 'QA jobs') or contains(text(), 'Quality Assurance')] | //button[contains(text(), 'See all QA jobs')]
+2025-09-07 15:21:36 [main] ERROR automation.com.pages.BasePage - Error navigating to QA Careers page: Failed to click 'See all QA jobs' button
+2025-09-07 15:21:36 [main] ERROR automation.com.tests.InsiderTest - Test Case 3 FAILED: Failed to navigate to QA Careers page
+2025-09-07 15:21:36 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testQAJobsPageAndFilter
+2025-09-07 22:16:17 [main] ERROR automation.com.pages.BasePage - Element not clickable: By.xpath: //a[contains(text(), 'Careers')] - Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text(), 'Careers')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53411/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 217d916accd9b752f11127b0b569a4dd
+2025-09-07 22:16:17 [main] ERROR automation.com.pages.BasePage - Error clicking Careers link: Element not clickable: By.xpath: //a[contains(text(), 'Careers')]
+2025-09-07 22:16:17 [main] ERROR automation.com.pages.BasePage - Error navigating to Careers page: Failed to click Careers link
+2025-09-07 22:16:17 [main] ERROR automation.com.tests.InsiderTest - Test Case 2 FAILED: Failed to navigate to Careers page
+2025-09-07 22:16:18 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testCareersPageSections
+2025-09-07 22:49:00 [main] ERROR automation.com.pages.BasePage - Error clicking element: By.xpath: //a[contains(text(), 'See all teams')] - element click intercepted: Element is not clickable at point (952, 1002)
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [594469d291b37a8fc05431738c3ff4c4, clickElement {id=f.403660CB68C757598FAC4A46E45F2F0F.d.BB3B7BD598D31BFBCA57F83C6659F55D.e.290}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55212/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (594469d291b37a8fc05431738c3ff4c4)] -> xpath: //a[contains(text(), 'See all teams')]]
+Session ID: 594469d291b37a8fc05431738c3ff4c4
+2025-09-07 22:49:01 [main] ERROR automation.com.pages.BasePage - Error clicking See all teams button: Failed to click element: By.xpath: //a[contains(text(), 'See all teams')]
+2025-09-07 22:49:06 [main] ERROR automation.com.pages.BasePage - Error checking element display: By.xpath: //p[contains(text(), 'We're here to grow and drive growth')] - invalid selector: Unable to locate an element with the xpath expression //p[contains(text(), 'We're here to grow and drive growth')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//p[contains(text(), 'We're here to grow and drive growth')]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.157)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [594469d291b37a8fc05431738c3ff4c4, findElement {value=//p[contains(text(), 'We're here to grow and drive growth')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55212}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55212/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 594469d291b37a8fc05431738c3ff4c4
+2025-09-07 22:49:07 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testQAJobsPageAndFilter
+2025-09-07 22:53:09 [main] ERROR automation.com.pages.BasePage - Error clicking element: By.xpath: //a[contains(text(), 'See all teams')] - element click intercepted: Element is not clickable at point (952, 975)
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [183fd2d82b7eaa2d8ac3504b8cfee926, clickElement {id=f.C95B16BFC4526E09FFF5570CC6B75C95.d.7F0799304058B0E01BD2574A24AD8841.e.331}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55511/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (183fd2d82b7eaa2d8ac3504b8cfee926)] -> xpath: //a[contains(text(), 'See all teams')]]
+Session ID: 183fd2d82b7eaa2d8ac3504b8cfee926
+2025-09-07 22:53:09 [main] ERROR automation.com.pages.BasePage - Error clicking See all teams button: Failed to click element: By.xpath: //a[contains(text(), 'See all teams')]
+2025-09-07 22:53:14 [main] ERROR automation.com.pages.BasePage - Error checking element display: By.xpath: //p[contains(text(), 'We're here to grow and drive growth')] - invalid selector: Unable to locate an element with the xpath expression //p[contains(text(), 'We're here to grow and drive growth')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//p[contains(text(), 'We're here to grow and drive growth')]' is not a valid XPath expression.
+  (Session info: chrome=139.0.7258.157)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [183fd2d82b7eaa2d8ac3504b8cfee926, findElement {using=xpath, value=//p[contains(text(), 'We're here to grow and drive growth')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55511/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 183fd2d82b7eaa2d8ac3504b8cfee926
+2025-09-07 22:53:19 [main] ERROR automation.com.pages.BasePage - Error clicking element: By.xpath: //a[contains(@href, 'qualityassurance') and contains(text(), 'See all QA jobs')] - element click intercepted: Element <a href="https://useinsider.com/careers/open-positions/?department=qualityassurance" class="btn btn-outline-secondary rounded text-medium mt-2 py-3 px-lg-5 w-100 w-md-50">...</a> is not clickable at point (534, 28). Other element would receive the click: <a class="nav-link nav-no-dropdown" href="https://useinsider.com/our-customers/" aria-haspopup="true" aria-expanded="false">...</a>
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [183fd2d82b7eaa2d8ac3504b8cfee926, clickElement {id=f.C95B16BFC4526E09FFF5570CC6B75C95.d.F9A78FABA40CDEEC50187DB5A6A329C1.e.475}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55511/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (183fd2d82b7eaa2d8ac3504b8cfee926)] -> xpath: //a[contains(@href, 'qualityassurance') and contains(text(), 'See all QA jobs')]]
+Session ID: 183fd2d82b7eaa2d8ac3504b8cfee926
+2025-09-07 22:53:19 [main] ERROR automation.com.pages.BasePage - Error clicking 'See all QA jobs' button: Failed to click element: By.xpath: //a[contains(@href, 'qualityassurance') and contains(text(), 'See all QA jobs')]
+2025-09-07 22:53:19 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testQAJobsPageAndFilter
+2025-09-07 23:09:31 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testQAJobsPageAndFilter
+2025-09-07 23:17:49 [main] ERROR automation.com.pages.BasePage - Error clicking View Role button: element click intercepted: Element <a href="https://jobs.lever.co/useinsider/78ddbec0-16bf-4eab-b5a6-04facb993ddc" class="btn btn-navy rounded pt-2 pr-5 pb-2 pl-5" target="_blank">...</a> is not clickable at point (502, 19). Other element would receive the click: <div class="collapse navbar-collapse" id="navbarNavDropdown">...</div>
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62dfb95b47ede7127a2603ab367e6a30, clickElement {id=f.0EF389F7D6A899396AF5AE4D59776630.d.B8727D4056A00934712C4631E8830C6F.e.776}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56470}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56470/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (62dfb95b47ede7127a2603ab367e6a30)] -> css selector: div.position-list-item:nth-of-type(1) a.btn.btn-navy]
+Session ID: 62dfb95b47ede7127a2603ab367e6a30
+2025-09-07 23:17:49 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testViewRoleButtonRedirect
+2025-09-07 23:42:27 [main] ERROR automation.com.pages.BasePage - Error checking element display: By.xpath: //div[contains(@class, 'new-menu-dropdown-layout-6-mid-container')] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd6dc1089e9ac5c3623cc003c84558e2, findElement {value=//div[contains(@class, 'new-menu-dropdown-layout-6-mid-container')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58711/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd6dc1089e9ac5c3623cc003c84558e2
+2025-09-07 23:42:47 [main] ERROR automation.com.pages.BasePage - Element not visible: By.xpath: //a[contains(text(), 'Careers') and contains(@href, 'careers')] - Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(text(), 'Careers') and contains(@href, 'careers')] (tried for 20 second(s) with 500 milliseconds interval)
+2025-09-07 23:43:07 [main] ERROR automation.com.pages.BasePage - Element not visible: By.xpath: //a[text()='Careers'] - Expected condition failed: waiting for visibility of element located by By.xpath: //a[text()='Careers'] (tried for 20 second(s) with 500 milliseconds interval)
+2025-09-07 23:43:27 [main] ERROR automation.com.pages.BasePage - Element not visible: By.xpath: //a[contains(@class, 'dropdown-sub') and contains(text(), 'Careers')] - Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(@class, 'dropdown-sub') and contains(text(), 'Careers')] (tried for 20 second(s) with 500 milliseconds interval)
+2025-09-07 23:43:47 [main] ERROR automation.com.pages.BasePage - Element not visible: By.xpath: //a[contains(text(), 'Careers')] - Expected condition failed: waiting for visibility of element located by By.xpath: //a[contains(text(), 'Careers')] (tried for 20 second(s) with 500 milliseconds interval)
+2025-09-07 23:43:47 [main] ERROR automation.com.pages.BasePage - Careers link not found with any locator
+2025-09-07 23:43:47 [main] ERROR automation.com.pages.BasePage - Error clicking Careers link: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd6dc1089e9ac5c3623cc003c84558e2, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58711/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd6dc1089e9ac5c3623cc003c84558e2
+2025-09-07 23:43:47 [main] ERROR automation.com.pages.BasePage - Error navigating to Careers page: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd6dc1089e9ac5c3623cc003c84558e2, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58711/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd6dc1089e9ac5c3623cc003c84558e2
+2025-09-07 23:43:47 [main] ERROR automation.com.tests.InsiderTest - Test Case 2 FAILED: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd6dc1089e9ac5c3623cc003c84558e2, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58711/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cd6dc1089e9ac5c3623cc003c84558e2
+2025-09-07 23:43:47 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testCareersPageSections
+2025-09-07 23:47:23 [main] ERROR automation.com.utils.BrowserManager - Error initializing WebDriver: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status 0 
+Host info: host: 'DESKTOP-GB9EF87', ip: '192.168.1.123'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:firefoxOptions: {prefs: {dom.push.enabled: false, dom.webnotifications.enabled: false, remote.active-protocols: 1}}}]}]
+2025-09-07 23:48:02 [main] ERROR automation.com.pages.BasePage - Error finding elements: By.xpath: //ul[contains(@class, 'navbar-nav') or contains(@class, 'nav-menu')]//a - Browsing context has been discarded
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [15d00c46-0ee2-4ea0-872a-c38894dfa07f, findElements {value=//ul[contains(@class, 'navbar-nav') or contains(@class, 'nav-menu')]//a, using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 142.0.1, moz:accessibilityChecks: false, moz:buildID: 20250827004350, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11328, moz:profile: C:\Users\kavci\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 15d00c46-0ee2-4ea0-872a-c38894dfa07f
+2025-09-07 23:48:02 [main] ERROR automation.com.pages.BasePage - No navigation tabs found
+2025-09-07 23:48:02 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testInsiderHomePageOpened
+2025-09-07 23:48:45 [main] ERROR automation.com.pages.BasePage - Error waiting for page load: Expected condition failed: waiting for automation.com.pages.BasePage$$Lambda/0x0000022d2b3c56f8@558756be (tried for 20 second(s) with 500 milliseconds interval)
+2025-09-07 23:48:45 [main] ERROR automation.com.pages.BasePage - Error checking element display: By.id: cookie-law-info-bar - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0441d44bc61f6df0ad32a2ac51a262f1, findElement {value=cookie-law-info-bar, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59244/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0441d44bc61f6df0ad32a2ac51a262f1
+2025-09-07 23:48:45 [main] ERROR automation.com.pages.BasePage - Error verifying page title: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0441d44bc61f6df0ad32a2ac51a262f1, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59244/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0441d44bc61f6df0ad32a2ac51a262f1
+2025-09-07 23:48:45 [main] ERROR automation.com.tests.InsiderTest - Test Case 1 FAILED: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=139.0.7258.157)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0441d44bc61f6df0ad32a2ac51a262f1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.157, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\kavci\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59244/devtoo..., se:cdpVersion: 139.0.7258.157, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0441d44bc61f6df0ad32a2ac51a262f1
+2025-09-07 23:48:45 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testInsiderHomePageOpened

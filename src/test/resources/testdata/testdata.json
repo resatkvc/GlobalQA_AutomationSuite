@@ -1,0 +1,139 @@
+{
+  "header_tabs": {
+    "main": [
+      "Why Insider",
+      "Platform",
+      "Solutions",
+      "Customers",
+      "Resources",
+      "Company",
+      "Explore Insider"
+    ],
+    "subHeaders": {
+      "Why Insider": [
+        "The Insider Difference",
+        "Compare Vendors",
+        "Switch to Insider"
+      ],
+      "Platform": [
+        "Platform Overview",
+        "Capabilities",
+        "Channels"
+      ],
+      "Solutions": [
+        "Use Cases",
+        "Industries"
+      ],
+      "Customers": [
+      ],
+      "Resources": [
+        "Interactive Tools",
+        "Other Resources",
+        "Take a Platform Tour",
+        "CDP Explorer",
+        "WhatsApp Explorer",
+        "SMS Templates Library",
+        "Productivity Calculator",
+        "Case Studies",
+        "Blog",
+        "Ebooks & Guides",
+        "Glossary"
+      ],
+      "Company": [
+        "About Us",
+        "Newsroom",
+        "Partnerships",
+        "Technology Partners",
+        "Solution Partners",
+        "Integrations",
+        "Careers",
+        "Contact Us"
+      ],
+      "Explore Insider": [
+        "Demo",
+        "Pricing",
+        "Free Trial"
+      ]
+    }
+  },
+  "careers_page": {
+    "expected_sections": [
+      "Locations",
+      "Teams",
+      "Life at Insider"
+    ],
+    "locations": [
+      "San Francisco, CA",
+      "New York, NY",
+      "London, UK",
+      "Istanbul, Turkey",
+      "Singapore",
+      "Sydney, Australia"
+    ],
+    "teams": [
+      "Engineering",
+      "Product",
+      "Sales",
+      "Marketing",
+      "Customer Success",
+      "Quality Assurance",
+      "Data Science",
+      "Design"
+    ]
+  },
+  "qa_jobs": {
+    "filters": {
+      "location": "Istanbul, Turkey",
+      "department": "Quality Assurance"
+    },
+    "expected_job_details": {
+      "position_contains": "Quality Assurance",
+      "department_contains": "Quality Assurance",
+      "location_contains": "Istanbul, Turkey"
+    },
+    "location_options": [
+      "All",
+      "Bangkok, Thailand",
+      "Bengaluru",
+      "Berlin, Germany",
+      "Bogota, Colombia",
+      "Canada",
+      "Chile, Chile",
+      "Hanoi, Vietnam",
+      "Ho Chi Minh City, Vietnam",
+      "Istanbul",
+      "Istanbul, Turkiye",
+      "Jakarta, Indonesia",
+      "Kuala Lumpur, Malaysia",
+      "London, United Kingdom",
+      "Mexico City, Mexico",
+      "Paris, France",
+      "Sao Paulo, Brazil",
+      "Seoul, South Korea",
+      "Singapore, Singapore",
+      "Sydney, Australia",
+      "Taipei, Taiwan",
+      "Turkey",
+      "United States"
+    ],
+    "department_options": [
+      "All",
+      "Business Development",
+      "CEO's Executive Office",
+      "Customer Education",
+      "Customer Success",
+      "Design",
+      "Finance & Business Support",
+      "Human Resources",
+      "Marketing and Communications",
+      "Marketing Design",
+      "MindBehind",
+      "Operations",
+      "Product Management",
+      "Quality Assurance",
+      "Sales",
+      "Sales Operations",
+      "Software Development"
+    ]
+  }
+}
