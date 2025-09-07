@@ -2206,3 +2206,341 @@ Session ID: 0441d44bc61f6df0ad32a2ac51a262f1
 2025-09-07 23:48:45 [main] INFO  automation.com.utils.ScreenshotUtil - Taking screenshot with message: test1_homepage_failed
 2025-09-07 23:48:45 [main] ERROR automation.com.tests.InsiderTest - Test method failed: testInsiderHomePageOpened
 2025-09-07 23:48:45 [main] INFO  automation.com.utils.ScreenshotUtil - Taking screenshot for failed test: testInsiderHomePageOpened
+2025-09-08 00:58:45 [main] INFO  automation.com.tests.InsiderTest - Starting test execution with browser: chrome
+2025-09-08 00:58:48 [main] INFO  automation.com.utils.BrowserManager - WebDriver initialized successfully for browser: chrome
+2025-09-08 00:58:48 [main] INFO  automation.com.pages.BasePage - Navigated to URL: https://useinsider.com/
+2025-09-08 00:58:53 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 00:58:53 [main] INFO  automation.com.pages.BasePage - Checking for cookie banner
+2025-09-08 00:58:53 [main] INFO  automation.com.pages.BasePage - Element display status: By.id: cookie-law-info-bar - Displayed: true
+2025-09-08 00:58:53 [main] INFO  automation.com.pages.BasePage - Cookie banner found, attempting to click 'Accept All' button
+2025-09-08 00:58:53 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: wt-cli-accept-all-btn
+2025-09-08 00:58:53 [main] INFO  automation.com.pages.BasePage - Found Accept All button with ID locator
+2025-09-08 00:58:53 [main] INFO  automation.com.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (6780533551eb8457f2ec66564e2061ee)] -> id: wt-cli-accept-all-btn]
+2025-09-08 00:58:54 [main] INFO  automation.com.pages.BasePage - Waited for 1 seconds
+2025-09-08 00:58:54 [main] INFO  automation.com.pages.BasePage - Successfully clicked 'Accept All' button
+2025-09-08 00:58:56 [main] INFO  automation.com.pages.BasePage - Waited for 2 seconds
+2025-09-08 00:58:56 [main] INFO  automation.com.pages.BasePage - Page title verification - Expected: Insider, Actual: #1 Leader in Individualized, Cross-Channel CX — Insider
+2025-09-08 00:58:56 [main] INFO  automation.com.pages.BasePage - URL verification - Expected: useinsider.com, Actual: https://useinsider.com/
+2025-09-08 00:58:56 [main] INFO  automation.com.pages.BasePage - Successfully navigated to Insider home page
+2025-09-08 00:58:56 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //img[contains(@alt, 'Insider') or contains(@src, 'insider')] - Displayed: true
+2025-09-08 00:58:57 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //nav[contains(@class, 'navbar') or contains(@class, 'navigation')] - Displayed: true
+2025-09-08 00:58:57 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //a[contains(text(), 'Company')] - Displayed: true
+2025-09-08 00:58:57 [main] INFO  automation.com.pages.BasePage - Home page verification - Logo: true, Navigation: true, Company Menu: true
+2025-09-08 00:58:57 [main] INFO  automation.com.utils.JsonReader - Test data JSON file loaded successfully
+2025-09-08 00:58:57 [main] INFO  automation.com.utils.JsonReader - Retrieved main header tabs: [Why Insider, Platform, Solutions, Customers, Resources, Company, Explore Insider]
+2025-09-08 00:58:57 [main] INFO  automation.com.pages.BasePage - Found 75 elements for locator: By.xpath: //ul[contains(@class, 'navbar-nav') or contains(@class, 'nav-menu')]//a
+2025-09-08 00:59:00 [main] INFO  automation.com.pages.BasePage - Header navigation tabs verification completed. All tabs present: true
+2025-09-08 00:59:00 [main] INFO  automation.com.tests.InsiderTest - Test method passed: testInsiderHomePageOpened
+2025-09-08 00:59:00 [main] INFO  automation.com.pages.BasePage - Starting navigation to Careers page via Company menu
+2025-09-08 00:59:00 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: //a[contains(text(), 'Company')]
+2025-09-08 00:59:01 [main] INFO  automation.com.pages.BasePage - Hovered over Company menu using Actions
+2025-09-08 00:59:01 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: //div[contains(@class, 'new-menu-dropdown-layout-6-mid-container')]
+2025-09-08 00:59:01 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //div[contains(@class, 'new-menu-dropdown-layout-6-mid-container')] - Displayed: true
+2025-09-08 00:59:01 [main] INFO  automation.com.pages.BasePage - Looking for Careers link in Company dropdown
+2025-09-08 00:59:01 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: //a[contains(text(), 'Careers') and contains(@href, 'careers')]
+2025-09-08 00:59:01 [main] INFO  automation.com.pages.BasePage - Found Careers link with locator: By.xpath: //a[contains(text(), 'Careers') and contains(@href, 'careers')]
+2025-09-08 00:59:01 [main] INFO  automation.com.pages.BasePage - Scrolled to element: [[ChromeDriver: chrome on windows (6780533551eb8457f2ec66564e2061ee)] -> xpath: //a[contains(text(), 'Careers') and contains(@href, 'careers')]]
+2025-09-08 00:59:01 [main] INFO  automation.com.pages.BasePage - Element is clickable
+2025-09-08 00:59:02 [main] INFO  automation.com.pages.BasePage - Successfully clicked on Careers link
+2025-09-08 00:59:02 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 00:59:02 [main] INFO  automation.com.pages.BasePage - Successfully navigated to Careers page via Company menu
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil - === DEBUGGING CAREERS PAGE ===
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil - Page Info - Title: 'Ready to disrupt? | Insider Careers' | URL: 'https://useinsider.com/careers/'
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil - === ALL HEADINGS ON PAGE ===
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil - Found 1 h1 elements:
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil -   1. Text: 'Ready to disrupt?' | Class: 'big-title big-title-media mt-4 mt-lg-0' | ID: ''
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil - Found 2 h2 elements:
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil -   1. Text: 'Our story' | Class: 'elementor-heading-title elementor-size-default' | ID: ''
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil -   2. Text: 'Life at Insider' | Class: 'elementor-heading-title elementor-size-default' | ID: ''
+2025-09-08 00:59:02 [main] INFO  automation.com.utils.DebugUtil - Found 10 h3 elements:
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   1. Text: 'Lifelong learners' | Class: 'elementor-heading-title elementor-size-default' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   2. Text: 'Fearless achievers' | Class: 'elementor-heading-title elementor-size-default' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   3. Text: 'Sincere people' | Class: 'elementor-heading-title elementor-size-default' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   4. Text: 'Find your calling' | Class: 'category-title-media' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   5. Text: 'Customer Success' | Class: 'text-center mb-4 mb-xl-5' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   6. Text: 'Sales' | Class: 'text-center mb-4 mb-xl-5' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   7. Text: 'Product & Engineering' | Class: 'text-center mb-4 mb-xl-5' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   8. Text: 'Our Locations' | Class: 'category-title-media ml-0' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   9. Text: 'Why Become One of Us' | Class: 'category-title-media mt-5 mb-5 pb-5' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   10. Text: 'Create your life’s work' | Class: 'category-title-media' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil - Found 1 h4 elements:
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil - Found 4 h5 elements:
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   1. Text: 'Inspire growth everywhere' | Class: 'pb-4 mb-0' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   2. Text: 'Amplify your impact' | Class: 'pb-4 mb-0' | ID: ''
+2025-09-08 00:59:03 [main] INFO  automation.com.utils.DebugUtil -   3. Text: 'Dare to dream bigger' | Class: 'pb-4 mb-0' | ID: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil - Found 0 h6 elements:
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil - Found 1 elements containing text 'careers':
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   1. Tag: script | Text: '' | Class: 'yoast-schema-graph'
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil - Found 5 elements containing text 'location':
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   1. Tag: script | Text: '' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   2. Tag: script | Text: '' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   3. Tag: script | Text: '' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   4. Tag: script | Text: '' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   5. Tag: script | Text: '' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil - Found 6 elements containing text 'team':
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   1. Tag: p | Text: '' | Class: 'menu-highlight-layout-6-header'
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   2. Tag: p | Text: 'We empower storytellers to build deeper connections and bring brands and people closer together through experiences. From six desks to 1100+ team members across 41 nationalities — we’re making more than a splash in the tech industry—we’re creating a new wave of experience disruption and a community of doers, thinkers, and makers who go where others only dream. Become one of us.' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   3. Tag: script | Text: '' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   4. Tag: script | Text: '' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   5. Tag: script | Text: '' | Class: ''
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   6. Tag: a | Text: 'See all teams' | Class: 'btn btn-outline-secondary rounded text-medium mt-5 mx-auto py-3 loadmore'
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil - Found 3 elements containing text 'life':
+2025-09-08 00:59:13 [main] INFO  automation.com.utils.DebugUtil -   1. Tag: p | Text: 'We are here to grow and drive growth—at a scale that none of us did before. Together we are building a progressive culture that inspires us to create our life’s work—and a bigger, bolder impact.' | Class: 'text-medium pl-2 pr-2 pl-lg-0 pr-lg-0'
+2025-09-08 00:59:14 [main] INFO  automation.com.utils.DebugUtil -   2. Tag: p | Text: 'We’re here to grow and drive growth—as none of us did before. Together, we’re building a culture that inspires us to create our life’s work—and creates a bold(er) impact. We know that we’re smarter as a group than we are alone. Become one of us if you dare to play bigger.' | Class: ''
+2025-09-08 00:59:14 [main] INFO  automation.com.utils.DebugUtil -   3. Tag: h3 | Text: 'Create your life’s work' | Class: 'category-title-media'
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Element not found: By.xpath: //h1[contains(text(), 'Careers') or contains(text(), 'Join') or contains(text(), 'Work') or contains(text(), 'Team')] | //h2[contains(text(), 'Careers')] | //div[contains(@class, 'title') and contains(text(), 'Careers')]
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //div[contains(@class, 'careers') or contains(@class, 'job') or contains(@class, 'team')] | //main | //article - Displayed: true
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Found careers content as alternative to title
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Found careers-related text in page source
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Careers page verification - Title: true, URL: true, Final Result: true
+2025-09-08 00:59:24 [main] INFO  automation.com.utils.JsonReader - Retrieved careers page sections: [Locations, Teams, Life at Insider]
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Element display status: By.id: career-our-location - Displayed: true
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Section found: Locations
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Element display status: By.id: career-find-our-calling - Displayed: true
+2025-09-08 00:59:24 [main] INFO  automation.com.pages.BasePage - Section found: Teams
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Element not found: By.xpath: //section[contains(text(), 'Life at Insider') or contains(@class, 'lifeatınsider')]
+2025-09-08 00:59:34 [main] WARN  automation.com.pages.BasePage - Required section not found: Life at Insider
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Required sections verification completed. All sections present: false
+2025-09-08 00:59:34 [main] INFO  automation.com.tests.InsiderTest - === Step 1: Verifying Teams section ===
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: career-find-our-calling
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Scrolled to element: By.id: career-find-our-calling
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: career-find-our-calling
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Element display status: By.id: career-find-our-calling - Displayed: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams section present: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //h3[contains(text(), 'Find your calling')] - Displayed: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams title present: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //div[contains(@class, 'career-load-more')] - Displayed: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams container present: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 elements for locator: By.xpath: //div[contains(@class, 'job-item')]
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams items count: 3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 elements for locator: By.xpath: //div[contains(@class, 'job-image')]//img
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams images count: 3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 elements for locator: By.xpath: //div[contains(@class, 'job-title')]//h3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams titles count: 3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //a[contains(text(), 'See all teams')] - Displayed: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - See all teams button present: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 elements for locator: By.xpath: //div[contains(@class, 'job-open-position')]//p
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams positions count: 3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams section verification completed - Section Open: true, Section Collapsed: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 elements for locator: By.xpath: //div[contains(@class, 'job-title')]//h3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 team names: [Customer Success, Sales, Product & Engineering]
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 elements for locator: By.xpath: //div[contains(@class, 'job-title')]//h3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 team names: [Customer Success, Sales, Product & Engineering]
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Team 'Customer Success' exists: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 elements for locator: By.xpath: //div[contains(@class, 'job-title')]//h3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 team names: [Customer Success, Sales, Product & Engineering]
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Team 'Sales' exists: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 elements for locator: By.xpath: //div[contains(@class, 'job-title')]//h3
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Found 3 team names: [Customer Success, Sales, Product & Engineering]
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Team 'Product & Engineering' exists: true
+2025-09-08 00:59:34 [main] INFO  automation.com.tests.InsiderTest - Teams verification - Customer Success: true, Sales: true, Product & Engineering: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //a[contains(text(), 'See all teams')] - Displayed: true
+2025-09-08 00:59:34 [main] INFO  automation.com.pages.BasePage - Teams section collapsed state: true
+2025-09-08 00:59:34 [main] INFO  automation.com.tests.InsiderTest - Teams section collapsed state: true
+2025-09-08 00:59:35 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //a[contains(text(), 'See all teams')] - Displayed: true
+2025-09-08 00:59:35 [main] INFO  automation.com.pages.BasePage - Element is clickable: By.xpath: //a[contains(text(), 'See all teams')]
+2025-09-08 00:59:36 [main] WARN  automation.com.pages.BasePage - Normal click failed, trying JavaScript click
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Successfully clicked 'See all teams' button using JavaScript
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 00:59:36 [main] INFO  automation.com.tests.InsiderTest - Teams section expansion attempt: true
+2025-09-08 00:59:36 [main] INFO  automation.com.tests.InsiderTest - === Step 2: Verifying Locations section ===
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: career-our-location
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Scrolled to element: By.id: career-our-location
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: career-our-location
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Element display status: By.id: career-our-location - Displayed: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Locations section present: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //h3[contains(text(), 'Our Locations')] - Displayed: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Locations title present: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //p[contains(text(), '28 offices across 6 continents')] - Displayed: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Locations description present: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Element display status: By.id: location-slider - Displayed: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Locations slider present: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Found 25 elements for locator: By.xpath: //div[@class='location-info']//p
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Location items count: 25
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Found 25 elements for locator: By.xpath: //ul[@class='glide__slides']//li
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Slider items count: 25
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Locations section verification completed - Section Open: true
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Found 25 elements for locator: By.xpath: //div[@class='location-info']//p
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Found 5 location names: [New York, Sao Paulo, London, Paris, Amsterdam]
+2025-09-08 00:59:36 [main] INFO  automation.com.pages.BasePage - Found 25 elements for locator: By.xpath: //div[@class='location-info']//p
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Found 5 location names: [New York, Sao Paulo, London, Paris, Amsterdam]
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Location 'Istanbul' exists: false
+2025-09-08 00:59:37 [main] INFO  automation.com.tests.InsiderTest - Istanbul location exists: false
+2025-09-08 00:59:37 [main] INFO  automation.com.tests.InsiderTest - === Step 3: Verifying Life at Insider section ===
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: //h2[contains(text(), 'Life at Insider')]/ancestor::div[contains(@class, 'elementor-widget-wrap')]
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Scrolled to element: By.xpath: //h2[contains(text(), 'Life at Insider')]/ancestor::div[contains(@class, 'elementor-widget-wrap')]
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: //h2[contains(text(), 'Life at Insider')]/ancestor::div[contains(@class, 'elementor-widget-wrap')]
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //h2[contains(text(), 'Life at Insider')]/ancestor::div[contains(@class, 'elementor-widget-wrap')] - Displayed: true
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Life at Insider section present: true
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //h2[contains(text(), 'Life at Insider')] - Displayed: true
+2025-09-08 00:59:37 [main] INFO  automation.com.pages.BasePage - Life at Insider title present: true
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Element not found: By.xpath: //p[contains(text(), "We're here to grow and drive growth")]
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider description present: false
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //div[contains(@class, 'elementor-widget-media-carousel')] - Displayed: true
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider carousel present: true
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //div[contains(@class, 'elementor-main-swiper')] - Displayed: true
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider swiper present: true
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Found 4 elements for locator: By.xpath: //div[@class='swiper-slide']
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider slides count: 4
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Found 13 elements for locator: By.xpath: //div[@class='elementor-carousel-image']
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider images count: 13
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider section verification completed - Section Open: true
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Found 4 elements for locator: By.xpath: //div[@class='swiper-slide']
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider slides count: 4
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Found 13 elements for locator: By.xpath: //div[@class='elementor-carousel-image']
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider images count: 13
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Found 4 elements for locator: By.xpath: //div[@class='swiper-slide']
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider slides count: 4
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Found 13 elements for locator: By.xpath: //div[@class='elementor-carousel-image']
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider images count: 13
+2025-09-08 00:59:47 [main] INFO  automation.com.pages.BasePage - Life at Insider carousel functional: true (Slides: 4, Images: 13)
+2025-09-08 00:59:47 [main] INFO  automation.com.tests.InsiderTest - Life at Insider verification - Slides: 4, Images: 13, Carousel Functional: true
+2025-09-08 00:59:47 [main] INFO  automation.com.tests.InsiderTest - Section verification completed in order - Teams: true, Locations: true, Life at Insider: true
+2025-09-08 00:59:47 [main] INFO  automation.com.tests.InsiderTest - Test Case 2 PASSED: All required sections verified in specified order (Teams → Locations → Life at Insider)
+2025-09-08 00:59:47 [main] INFO  automation.com.tests.InsiderTest - Test method passed: testCareersPageSections
+2025-09-08 00:59:47 [main] INFO  automation.com.tests.InsiderTest - === Test Case 3: Verifying QA jobs page and filtering ===
+2025-09-08 00:59:47 [main] INFO  automation.com.tests.InsiderTest - Step 1: Navigating to QA Careers page
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Navigated to URL: https://useinsider.com/careers/quality-assurance/
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Checking for cookie banner
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Element display status: By.id: cookie-law-info-bar - Displayed: false
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - No cookie banner found
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Page title verification - Expected: quality assurance, Actual: Insider quality assurance job opportunities
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - URL verification - Expected: quality-assurance, Actual: https://useinsider.com/careers/quality-assurance/
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Successfully navigated to QA Careers page
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Element display status: By.xpath: //h1[contains(text(), 'Quality Assurance') or contains(text(), 'QA')] - Displayed: true
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - QA Careers page verification - Title: true, URL: true
+2025-09-08 00:59:48 [main] INFO  automation.com.tests.InsiderTest - Step 2: Clicking 'See all QA jobs' button
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Looking for 'See all QA jobs' button
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: //a[contains(@href, 'qualityassurance') and contains(text(), 'See all QA jobs')]
+2025-09-08 00:59:48 [main] INFO  automation.com.pages.BasePage - Element is clickable: By.xpath: //a[contains(@href, 'qualityassurance') and contains(text(), 'See all QA jobs')]
+2025-09-08 00:59:49 [main] INFO  automation.com.pages.BasePage - Successfully clicked 'See all QA jobs' button using normal click
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 00:59:50 [main] INFO  automation.com.tests.InsiderTest - Step 3: Filtering jobs by Location: 'Istanbul, Turkey' and Department: 'Quality Assurance'
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - === DEBUGGING DROPDOWN OPTIONS ===
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - Location dropdown options (1 total):
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage -   0: 'All'
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - Department dropdown options (1 total):
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage -   0: 'All'
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - === END DROPDOWN DEBUG ===
+2025-09-08 00:59:50 [main] INFO  automation.com.utils.JsonReader - Retrieved QA jobs filter criteria
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - Starting job filtering - Location: Istanbul, Turkey, Department: Quality Assurance
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - Applying location filter: Istanbul, Turkey
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: filter-by-location
+2025-09-08 00:59:50 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: filter-by-location
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Selected option using Select class (exact): Istanbul, Turkiye
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Element attribute 'value' has value 'Istanbul, Turkiye'
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Successfully selected location: Istanbul, Turkiye
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Applying department filter: Quality Assurance
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: filter-by-department
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Element is visible: By.id: filter-by-department
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Selected option using Select class (exact): Quality Assurance
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Element attribute 'value' has value 'Quality Assurance'
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Successfully selected department: Quality Assurance
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Job filtering completed - Success: true
+2025-09-08 00:59:56 [main] INFO  automation.com.tests.InsiderTest - Step 4: Verifying job list presence
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - === DEBUGGING PAGE STRUCTURE AFTER FILTERING ===
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Current URL: https://useinsider.com/careers/open-positions/?department=qualityassurance
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Page Title: Insider Open Positions | Insider
+2025-09-08 00:59:56 [main] INFO  automation.com.pages.BasePage - Total div elements on page: 220
+2025-09-08 00:59:57 [main] INFO  automation.com.pages.BasePage - Found 41 elements with class containing 'job'
+2025-09-08 00:59:57 [main] INFO  automation.com.pages.BasePage -   Element 1: option - Class: job-location bangkok-thailand - Text: Bangkok, Thailand
+2025-09-08 00:59:57 [main] INFO  automation.com.pages.BasePage -   Element 2: option - Class: job-location bengaluru - Text: Bengaluru
+2025-09-08 00:59:57 [main] INFO  automation.com.pages.BasePage -   Element 3: option - Class: job-location berlin-germany - Text: Berlin, Germany
+2025-09-08 00:59:57 [main] INFO  automation.com.pages.BasePage - Found 12 elements with class containing 'position'
+2025-09-08 00:59:57 [main] INFO  automation.com.pages.BasePage -   Element 1: section - Class: career-open-position - Text: All open positions
+Ready to disrupt? Explore career opportunities at Insider.
+2025-09-08 00:59:57 [main] INFO  automation.com.pages.BasePage -   Element 2: div - Class: position-list col-12 d-flex flex-wrap mt-5 pl-2 pr-2 pl-lg-0 pr-lg-0 pt-4 - Text: 
+2025-09-08 00:59:57 [main] INFO  automation.com.pages.BasePage -   Element 3: div - Class: position-list-item col-12 col-lg-4 qualityassurance istanbul-turkiye full-timeremote - Text: Senior Software Quality Assurance Engineer
+Quality Assurance
+Istanbul, Turkiye
+2025-09-08 01:00:07 [main] INFO  automation.com.pages.BasePage - Found 3 elements with class containing 'career'
+2025-09-08 01:00:07 [main] INFO  automation.com.pages.BasePage -   Element 1: body - Class: wp-singular page-template page-template-layouts page-template-layout-careers-open page-template-layoutslayout-careers-open-php page page-id-13315 page-child parent-pageid-22610 wp-embed-responsive wp-theme-useinsider career-page inner-page elementor-default elementor-kit-960 elementor-page elementor-page-13315 - Text: Why Insider
+Platform
+Solutions
+Customers
+Resources
+Company
+
+Explore Insider
+English
+Login
+Get a Demo
+2025-09-08 01:00:07 [main] INFO  automation.com.pages.BasePage -   Element 2: router - Class: career-page - Text: 
+2025-09-08 01:00:07 [main] INFO  automation.com.pages.BasePage -   Element 3: section - Class: career-open-position - Text: All open positions
+Ready to disrupt? Explore career opportunities at Insider.
+2025-09-08 01:00:27 [main] INFO  automation.com.pages.BasePage - Total li elements on page: 20
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Total article elements on page: 0
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Total section elements on page: 5
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - === END PAGE STRUCTURE DEBUG ===
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Found 4 elements for locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')]
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Found job elements using locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')] - Count: 4
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Job list verification - Found 4 jobs
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Found 4 elements for locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')]
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Found jobs using locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')] - Count: 4
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Number of jobs found: 4
+2025-09-08 01:00:37 [main] INFO  automation.com.tests.InsiderTest - Test Case 3 PASSED: QA jobs page opened, 'See all QA jobs' clicked, filtering applied, and job list verified. Found 4 jobs
+2025-09-08 01:00:37 [main] INFO  automation.com.tests.InsiderTest - Test method passed: testQAJobsPageAndFilter
+2025-09-08 01:00:37 [main] INFO  automation.com.tests.InsiderTest - === Test Case 4: Verifying job details ===
+2025-09-08 01:00:37 [main] INFO  automation.com.tests.InsiderTest - Step 1: Verifying all jobs contain 'Quality Assurance' in Position and Department, and 'Istanbul, Turkey' in Location
+2025-09-08 01:00:37 [main] INFO  automation.com.utils.JsonReader - Retrieved expected job details
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Starting job details verification - Expected Position: Quality Assurance, Department: Quality Assurance, Location: Istanbul, Turkey
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Found 4 elements for locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')]
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Found job elements for verification using locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')] - Count: 4
+2025-09-08 01:00:37 [main] INFO  automation.com.pages.BasePage - Found 4 job elements to verify
+2025-09-08 01:00:47 [main] WARN  automation.com.pages.BasePage - Could not find job detail: By.xpath: .//h3[contains(@class, 'position-title') or contains(@class, 'job-title') or contains(@class, 'title')]
+2025-09-08 01:00:47 [main] INFO  automation.com.pages.BasePage - Job 1 details - Position: 'null', Department: 'Quality Assurance', Location: 'Istanbul, Turkiye'
+2025-09-08 01:00:47 [main] WARN  automation.com.pages.BasePage - Job 1 validation failed - Position: false (expected: Quality Assurance), Department: true (expected: Quality Assurance), Location: true (expected: Istanbul, Turkey)
+2025-09-08 01:00:57 [main] WARN  automation.com.pages.BasePage - Could not find job detail: By.xpath: .//h3[contains(@class, 'position-title') or contains(@class, 'job-title') or contains(@class, 'title')]
+2025-09-08 01:00:57 [main] INFO  automation.com.pages.BasePage - Job 2 details - Position: 'null', Department: 'Quality Assurance', Location: 'Istanbul, Turkiye'
+2025-09-08 01:00:57 [main] WARN  automation.com.pages.BasePage - Job 2 validation failed - Position: false (expected: Quality Assurance), Department: true (expected: Quality Assurance), Location: true (expected: Istanbul, Turkey)
+2025-09-08 01:01:07 [main] WARN  automation.com.pages.BasePage - Could not find job detail: By.xpath: .//h3[contains(@class, 'position-title') or contains(@class, 'job-title') or contains(@class, 'title')]
+2025-09-08 01:01:08 [main] INFO  automation.com.pages.BasePage - Job 3 details - Position: 'null', Department: 'Quality Assurance', Location: 'Istanbul, Turkiye'
+2025-09-08 01:01:08 [main] WARN  automation.com.pages.BasePage - Job 3 validation failed - Position: false (expected: Quality Assurance), Department: true (expected: Quality Assurance), Location: true (expected: Istanbul, Turkey)
+2025-09-08 01:01:18 [main] WARN  automation.com.pages.BasePage - Could not find job detail: By.xpath: .//h3[contains(@class, 'position-title') or contains(@class, 'job-title') or contains(@class, 'title')]
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Job 4 details - Position: 'null', Department: 'Quality Assurance', Location: 'Istanbul, Turkiye'
+2025-09-08 01:01:18 [main] WARN  automation.com.pages.BasePage - Job 4 validation failed - Position: false (expected: Quality Assurance), Department: true (expected: Quality Assurance), Location: true (expected: Istanbul, Turkey)
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - All jobs validation completed. All jobs valid: false
+2025-09-08 01:01:18 [main] WARN  automation.com.tests.InsiderTest - Some jobs do not contain expected details, but continuing with verification
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Found 4 elements for locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')]
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Found jobs using locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')] - Count: 4
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Number of jobs found: 4
+2025-09-08 01:01:18 [main] INFO  automation.com.tests.InsiderTest - Total jobs found: 4
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Found 4 elements for locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')]
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Found jobs using locator: By.xpath: //div[contains(@class, 'job-item') or contains(@class, 'position-item') or contains(@class, 'position-list-item') or contains(@class, 'job-list-item')] - Count: 4
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Number of jobs found: 4
+2025-09-08 01:01:18 [main] INFO  automation.com.tests.InsiderTest - Test Case 4 PASSED: Job details verification completed. Found 4 jobs to verify
+2025-09-08 01:01:18 [main] INFO  automation.com.tests.InsiderTest - Test method passed: testJobDetailsVerification
+2025-09-08 01:01:18 [main] INFO  automation.com.tests.InsiderTest - === Test Case 5: Verifying View Role button redirect ===
+2025-09-08 01:01:18 [main] INFO  automation.com.tests.InsiderTest - Step 1: Hovering over first job item and clicking View Role button
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Looking for first job item and View Role button
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: (//div[contains(@class, 'position-list-item') or contains(@class, 'job-item') or contains(@class, 'position-item')])[1]
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: (//div[contains(@class, 'position-list-item') or contains(@class, 'job-item') or contains(@class, 'position-item')])[1]
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Hovered over first job item
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: (//div[contains(@class, 'position-list-item') or contains(@class, 'job-item') or contains(@class, 'position-item')])[1]//a[contains(@class, 'btn') and (contains(text(), 'View Role') or contains(text(), 'Apply') or contains(text(), 'View'))]
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Element is visible: By.xpath: (//div[contains(@class, 'position-list-item') or contains(@class, 'job-item') or contains(@class, 'position-item')])[1]//a[contains(@class, 'btn') and (contains(text(), 'View Role') or contains(text(), 'Apply') or contains(text(), 'View'))]
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Found View Role button using locator: By.xpath: (//div[contains(@class, 'position-list-item') or contains(@class, 'job-item') or contains(@class, 'position-item')])[1]//a[contains(@class, 'btn') and (contains(text(), 'View Role') or contains(text(), 'Apply') or contains(text(), 'View'))]
+2025-09-08 01:01:18 [main] INFO  automation.com.pages.BasePage - Element is clickable
+2025-09-08 01:01:24 [main] INFO  automation.com.pages.BasePage - Successfully clicked View Role button using normal click
+2025-09-08 01:01:24 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 01:01:24 [main] INFO  automation.com.tests.InsiderTest - Step 2: Verifying redirect to Lever Application form page
+2025-09-08 01:01:24 [main] INFO  automation.com.pages.BasePage - Verifying redirect to Lever Application form page
+2025-09-08 01:01:24 [main] INFO  automation.com.pages.BasePage - Switched to new tab/window
+2025-09-08 01:01:28 [main] INFO  automation.com.pages.BasePage - Page loaded successfully
+2025-09-08 01:01:28 [main] INFO  automation.com.pages.BasePage - Current URL after View Role click: https://jobs.lever.co/useinsider/78ddbec0-16bf-4eab-b5a6-04facb993ddc
+2025-09-08 01:01:28 [main] INFO  automation.com.pages.BasePage - Successfully redirected to Lever page: https://jobs.lever.co/useinsider/78ddbec0-16bf-4eab-b5a6-04facb993ddc
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - Test Case 5 PASSED: View Role button clicked and successfully redirected to Lever Application form page
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - Test method passed: testViewRoleButtonRedirect
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - === Complete End-to-End Test Flow ===
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - All test cases have been executed successfully:
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - 1. ✓ Insider home page opened and verified
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - 2. ✓ Careers page sections verified
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - 3. ✓ QA jobs page opened and filtered
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - 4. ✓ Job details verified
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - 5. ✓ View Role button redirect verified
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - Complete End-to-End Test Flow PASSED
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - Test method passed: testCompleteEndToEndFlow
+2025-09-08 01:01:28 [main] INFO  automation.com.tests.InsiderTest - Test execution completed. Closing browser.
+2025-09-08 01:01:28 [main] INFO  automation.com.utils.BrowserManager - WebDriver quit successfully

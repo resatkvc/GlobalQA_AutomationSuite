@@ -36,7 +36,23 @@ public class DebugUtil {
     
     public static void printElementsContainingText(WebDriver driver, String searchText) {
         try {
-            By locator = By.xpath("/
+            By locator = By.xpath("//*[contains(text(), '" + searchText + "')]");
+            List<WebElement> elements = driver.findElements(locator);
+            logger.info("Found " + elements.size() + " elements containing text '" + searchText + "':");
+            
+            for (int i = 0; i < elements.size(); i++) {
+                WebElement element = elements.get(i);
+                String tagName = element.getTagName();
+                String text = element.getText().trim();
+                String className = element.getAttribute("class");
+                
+                logger.info("  " + (i + 1) + ". Tag: " + tagName + " | Text: '" + text + "' | Class: '" + className + "'");
+            }
+        } catch (Exception e) {
+            logger.error("Error printing elements containing text '" + searchText + "': " + e.getMessage());
+        }
+    }
+    
     public static void printPageInfo(WebDriver driver) {
         try {
             String title = driver.getTitle();
